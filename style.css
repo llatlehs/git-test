@@ -12,41 +12,40 @@
     background-repeat: no-repeat;
 }
 .section1 {
-    background-image: url();
+    background-image: url(images/images1.jpg);
+    height: 100vh;
 }
 
 .section2 {
-    background-image: url();
+    background-image: url(images/image2.jpg);
     background-attachment: fixed;
-}
-
-.section3 {
-    background-image: url();
+    height: 100vh;
 }
 
 .section4 {
-    background-image: url();
+    background-image: url(images/image4.jpg);
     background-attachment: fixed;
+    height: 100vh;
 }
 
-.nav ul {
+nav ul {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
-.nav li {
+nav li {
     list-style-type: none;
     margin: 20px;
 }
-.nav {
+nav {
     background-color: #0000;
     position: fixed;
     width: 100%;
     z-index: 5;
 }
-.nav a {
+nav a {
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -58,6 +57,7 @@
     top: 100px;
     left: 10%;
     align-items: center;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.637);
     width: 40%;
     padding: 20px 0 20px 0;
@@ -68,6 +68,7 @@
 
 .intro {
     color: black;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.637);
     width: 40%;
     text-align: center;
@@ -100,6 +101,45 @@
     left: 60%;
     padding: 20px;
     border-radius: 5px;
+}
+
+
+.section3 {
+    background-image: url(images/image3.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    text-align: center;
+}
+.section3 p {
+    margin: 20px;
+    font-size: 20px;
+    color: blue;
+}
+.section3 input {
+    height: 30px;
+    border-color: transparent;
+    color: blue;
+}
+.section3 input:focus {
+    outline: 2px solid blue;
+}
+.section3 input::placeholder {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+#button {
+    color: blue;
+    font-size: 22px;
+    padding: 10px;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 

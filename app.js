@@ -1,0 +1,3 @@
+function GetData() {
+    alert("Clicked!");
+}
