@@ -86,10 +86,13 @@ nav a {
 }
 
 #p1 {
-    color: black;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
     position: relative;
     top: 100px;
     left: 5%;
+    padding: 20px;
 }
 
 #p2 {
